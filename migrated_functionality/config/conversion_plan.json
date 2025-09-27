@@ -1,0 +1,317 @@
+[
+  {
+    "source_path": "memu/super_design_dashboards/config/staging.json",
+    "target_path": "memu/super_design_dashboards/config/staging.ts",
+    "source_language": "json",
+    "target_language": "ts",
+    "conversion_type": "json_to_typescript_config",
+    "priority": 8,
+    "complexity": "low"
+  },
+  {
+    "source_path": "memu/super_design_dashboards/config/production.json",
+    "target_path": "memu/super_design_dashboards/config/production.ts",
+    "source_language": "json",
+    "target_language": "ts",
+    "conversion_type": "json_to_typescript_config",
+    "priority": 8,
+    "complexity": "low"
+  },
+  {
+    "source_path": "memu/super_design_dashboards/config/development.json",
+    "target_path": "memu/super_design_dashboards/config/development.ts",
+    "source_language": "json",
+    "target_language": "ts",
+    "conversion_type": "json_to_typescript_config",
+    "priority": 8,
+    "complexity": "low"
+  },
+  {
+    "source_path": "memu/super_design_dashboards/config/testing.json",
+    "target_path": "memu/super_design_dashboards/config/testing.ts",
+    "source_language": "json",
+    "target_language": "ts",
+    "conversion_type": "json_to_typescript_config",
+    "priority": 6,
+    "complexity": "low"
+  },
+  {
+    "source_path": "memu/__init__.py",
+    "target_path": "memu/__init__.ts",
+    "source_language": "py",
+    "target_language": "ts",
+    "conversion_type": "python_to_typescript",
+    "priority": 5,
+    "complexity": "high"
+  },
+  {
+    "source_path": "memu/complete_n8n_workflow_integration.py",
+    "target_path": "memu/complete_n8n_workflow_integration.ts",
+    "source_language": "py",
+    "target_language": "ts",
+    "conversion_type": "python_to_typescript",
+    "priority": 5,
+    "complexity": "high"
+  },
+  {
+    "source_path": "memu/super_design_dashboards/validate-dashboard.py",
+    "target_path": "memu/super_design_dashboards/validate-dashboard.ts",
+    "source_language": "py",
+    "target_language": "ts",
+    "conversion_type": "python_to_typescript",
+    "priority": 5,
+    "complexity": "high"
+  },
+  {
+    "source_path": "memu/super_design_dashboards/__init__.py",
+    "target_path": "memu/super_design_dashboards/__init__.ts",
+    "source_language": "py",
+    "target_language": "ts",
+    "conversion_type": "python_to_typescript",
+    "priority": 5,
+    "complexity": "low"
+  },
+  {
+    "source_path": "memu/super_design_dashboards/integrate-search.js",
+    "target_path": "memu/super_design_dashboards/integrate-search.ts",
+    "source_language": "js",
+    "target_language": "ts",
+    "conversion_type": "javascript_to_typescript",
+    "priority": 4,
+    "complexity": "high"
+  },
+  {
+    "source_path": "memu/super_design_dashboards/modern-search-implementation.js",
+    "target_path": "memu/super_design_dashboards/modern-search-implementation.ts",
+    "source_language": "js",
+    "target_language": "ts",
+    "conversion_type": "javascript_to_typescript",
+    "priority": 4,
+    "complexity": "high"
+  },
+  {
+    "source_path": "memu/super_design_dashboards/tailwind.config.js",
+    "target_path": "memu/super_design_dashboards/tailwind.config.ts",
+    "source_language": "js",
+    "target_language": "ts",
+    "conversion_type": "javascript_to_typescript",
+    "priority": 4,
+    "complexity": "low"
+  },
+  {
+    "source_path": "memu/super_design_dashboards/automation-bot-integration.js",
+    "target_path": "memu/super_design_dashboards/automation-bot-integration.ts",
+    "source_language": "js",
+    "target_language": "ts",
+    "conversion_type": "javascript_to_typescript",
+    "priority": 4,
+    "complexity": "high"
+  },
+  {
+    "source_path": "memu/super_design_dashboards/dashboard-monitoring-integration.js",
+    "target_path": "memu/super_design_dashboards/dashboard-monitoring-integration.ts",
+    "source_language": "js",
+    "target_language": "ts",
+    "conversion_type": "javascript_to_typescript",
+    "priority": 4,
+    "complexity": "high"
+  },
+  {
+    "source_path": "memu/super_design_dashboards/content-discovery-integration.js",
+    "target_path": "memu/super_design_dashboards/content-discovery-integration.ts",
+    "source_language": "js",
+    "target_language": "ts",
+    "conversion_type": "javascript_to_typescript",
+    "priority": 4,
+    "complexity": "high"
+  },
+  {
+    "source_path": "memu/super_design_dashboards/dashboard-script.js",
+    "target_path": "memu/super_design_dashboards/dashboard-script.ts",
+    "source_language": "js",
+    "target_language": "ts",
+    "conversion_type": "javascript_to_typescript",
+    "priority": 4,
+    "complexity": "high"
+  },
+  {
+    "source_path": "memu/super_design_dashboards/security-compliance-integration.js",
+    "target_path": "memu/super_design_dashboards/security-compliance-integration.ts",
+    "source_language": "js",
+    "target_language": "ts",
+    "conversion_type": "javascript_to_typescript",
+    "priority": 4,
+    "complexity": "high"
+  },
+  {
+    "source_path": "memu/super_design_dashboards/ecosystem-health-monitoring.js",
+    "target_path": "memu/super_design_dashboards/ecosystem-health-monitoring.ts",
+    "source_language": "js",
+    "target_language": "ts",
+    "conversion_type": "javascript_to_typescript",
+    "priority": 4,
+    "complexity": "high"
+  },
+  {
+    "source_path": "memu/super_design_dashboards/nlp-processing-integration.js",
+    "target_path": "memu/super_design_dashboards/nlp-processing-integration.ts",
+    "source_language": "js",
+    "target_language": "ts",
+    "conversion_type": "javascript_to_typescript",
+    "priority": 4,
+    "complexity": "high"
+  },
+  {
+    "source_path": "memu/super_design_dashboards/search-intelligence-integration.js",
+    "target_path": "memu/super_design_dashboards/search-intelligence-integration.ts",
+    "source_language": "js",
+    "target_language": "ts",
+    "conversion_type": "javascript_to_typescript",
+    "priority": 4,
+    "complexity": "high"
+  },
+  {
+    "source_path": "memu/super_design_dashboards/bot-communication-protocol.js",
+    "target_path": "memu/super_design_dashboards/bot-communication-protocol.ts",
+    "source_language": "js",
+    "target_language": "ts",
+    "conversion_type": "javascript_to_typescript",
+    "priority": 4,
+    "complexity": "high"
+  },
+  {
+    "source_path": "memu/test_integration_complete.py",
+    "target_path": "memu/test_integration_complete.ts",
+    "source_language": "py",
+    "target_language": "ts",
+    "conversion_type": "python_to_typescript",
+    "priority": 3,
+    "complexity": "high"
+  },
+  {
+    "source_path": "memu/alignment_categories.json",
+    "target_path": "memu/alignment_categories.ts",
+    "source_language": "json",
+    "target_language": "ts",
+    "conversion_type": "json_to_typescript_config",
+    "priority": 2,
+    "complexity": "low"
+  },
+  {
+    "source_path": "memu/alignment_nodes.json",
+    "target_path": "memu/alignment_nodes.ts",
+    "source_language": "json",
+    "target_language": "ts",
+    "conversion_type": "json_to_typescript_config",
+    "priority": 2,
+    "complexity": "low"
+  },
+  {
+    "source_path": "memu/logging-config.json",
+    "target_path": "memu/logging-config.ts",
+    "source_language": "json",
+    "target_language": "ts",
+    "conversion_type": "json_to_typescript_config",
+    "priority": 2,
+    "complexity": "low"
+  },
+  {
+    "source_path": "memu/super_design_dashboards/tsconfig.node.json",
+    "target_path": "memu/super_design_dashboards/tsconfig.node.ts",
+    "source_language": "json",
+    "target_language": "ts",
+    "conversion_type": "json_to_typescript_config",
+    "priority": 2,
+    "complexity": "low"
+  },
+  {
+    "source_path": "memu/super_design_dashboards/.pre-commit-config.yaml",
+    "target_path": "memu/super_design_dashboards/.pre-commit-config.ts",
+    "source_language": "yaml",
+    "target_language": "ts",
+    "conversion_type": "yaml_to_typescript_config",
+    "priority": 2,
+    "complexity": "low"
+  },
+  {
+    "source_path": "memu/super_design_dashboards/package-react.json",
+    "target_path": "memu/super_design_dashboards/package-react.ts",
+    "source_language": "json",
+    "target_language": "ts",
+    "conversion_type": "json_to_typescript_config",
+    "priority": 2,
+    "complexity": "low"
+  },
+  {
+    "source_path": "memu/super_design_dashboards/dashboard-data.json",
+    "target_path": "memu/super_design_dashboards/dashboard-data.ts",
+    "source_language": "json",
+    "target_language": "ts",
+    "conversion_type": "json_to_typescript_config",
+    "priority": 2,
+    "complexity": "low"
+  },
+  {
+    "source_path": "memu/super_design_dashboards/security-config.json",
+    "target_path": "memu/super_design_dashboards/security-config.ts",
+    "source_language": "json",
+    "target_language": "ts",
+    "conversion_type": "json_to_typescript_config",
+    "priority": 2,
+    "complexity": "low"
+  },
+  {
+    "source_path": "memu/super_design_dashboards/test-suite.js",
+    "target_path": "memu/super_design_dashboards/test-suite.ts",
+    "source_language": "js",
+    "target_language": "ts",
+    "conversion_type": "javascript_to_typescript",
+    "priority": 2,
+    "complexity": "high"
+  },
+  {
+    "source_path": "memu/super_design_dashboards/package-lock.json",
+    "target_path": "memu/super_design_dashboards/package-lock.ts",
+    "source_language": "json",
+    "target_language": "ts",
+    "conversion_type": "json_to_typescript_config",
+    "priority": 2,
+    "complexity": "low"
+  },
+  {
+    "source_path": "memu/super_design_dashboards/package.json",
+    "target_path": "memu/super_design_dashboards/package.ts",
+    "source_language": "json",
+    "target_language": "ts",
+    "conversion_type": "json_to_typescript_config",
+    "priority": 2,
+    "complexity": "low"
+  },
+  {
+    "source_path": "memu/super_design_dashboards/tsconfig.json",
+    "target_path": "memu/super_design_dashboards/tsconfig.ts",
+    "source_language": "json",
+    "target_language": "ts",
+    "conversion_type": "json_to_typescript_config",
+    "priority": 2,
+    "complexity": "low"
+  },
+  {
+    "source_path": "memu/super_design_dashboards/monitoring-config.json",
+    "target_path": "memu/super_design_dashboards/monitoring-config.ts",
+    "source_language": "json",
+    "target_language": "ts",
+    "conversion_type": "json_to_typescript_config",
+    "priority": 2,
+    "complexity": "low"
+  },
+  {
+    "source_path": "memu/schemas/memu_ecosystem.json",
+    "target_path": "memu/schemas/memu_ecosystem.ts",
+    "source_language": "json",
+    "target_language": "ts",
+    "conversion_type": "json_to_typescript_config",
+    "priority": 2,
+    "complexity": "low"
+  }
+]

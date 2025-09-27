@@ -1,0 +1,34 @@
+{
+  "name": "IZA OS Sales Automation",
+  "trigger": {
+    "type": "webhook",
+    "webhook_url": "https://your-domain.com/webhook/sales"
+  },
+  "actions": [
+    {
+      "type": "hubspot_create_contact",
+      "config": {
+        "email": "{{lead.email}}",
+        "firstname": "{{lead.first_name}}",
+        "lastname": "{{lead.last_name}}"
+      }
+    },
+    {
+      "type": "stripe_create_customer",
+      "config": {
+        "email": "{{lead.email}}",
+        "name": "{{lead.first_name}} {{lead.last_name}}"
+      }
+    },
+    {
+      "type": "sendgrid_send_email",
+      "config": {
+        "to": "{{lead.email}}",
+        "template_id": "welcome_template",
+        "dynamic_data": {
+          "first_name": "{{lead.first_name}}"
+        }
+      }
+    }
+  ]
+}
